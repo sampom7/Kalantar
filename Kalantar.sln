@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalantar", "Kalantar\Kalantar.csproj", "{8D03EA4E-4390-49BE-AA79-C397B97DFA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalantar.Tests", "Kalantar.Tests\Kalantar.Tests.csproj", "{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D03EA4E-4390-49BE-AA79-C397B97DFA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D03EA4E-4390-49BE-AA79-C397B97DFA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D03EA4E-4390-49BE-AA79-C397B97DFA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D03EA4E-4390-49BE-AA79-C397B97DFA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2E61787-3127-4871-BD2A-916E7E42FD7F}
+	EndGlobalSection
+EndGlobal
