@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
 
-    
+    <h2><%: Title %></h2>
     
 
  
@@ -11,11 +11,10 @@
 <div class="container">
   <div class="row" style="width: 100%">
     <div class="col" style="width: 50%">
-      1 of 2
+      
     </div>
     <div class="col" style="width: 50%">
       <div>
-        <br />
         <br />
         <asp:Label ID="Label1" runat="server" Text="User Name"></asp:Label>
         &nbsp;&nbsp;&nbsp;
