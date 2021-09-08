@@ -11,7 +11,6 @@ namespace Kalantar
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Sameer 07-09-2021
 
         }
     }
