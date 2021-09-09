@@ -106,6 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Forgot Password OTP Page.aspx" />
+    <Content Include="Admin Dashboard.aspx" />
+    <Content Include="Sub-Admin Dashboard.aspx" />
+    <Content Include="Password Reset Page.aspx" />
+    <Content Include="Forgot Password Page.aspx" />
+    <Content Include="Password Reset Confirmation.aspx" />
+    <Content Include="Participant Dashboard.aspx" />
+    <Content Include="Sign Up Confirmation.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -174,6 +182,62 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Forgot Password OTP Page.aspx.cs">
+      <DependentUpon>Forgot Password OTP Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgot Password OTP Page.aspx.designer.cs">
+      <DependentUpon>Forgot Password OTP Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Dashboard.aspx.cs">
+      <DependentUpon>Admin Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin Dashboard.aspx.designer.cs">
+      <DependentUpon>Admin Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sub-Admin Dashboard.aspx.cs">
+      <DependentUpon>Sub-Admin Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sub-Admin Dashboard.aspx.designer.cs">
+      <DependentUpon>Sub-Admin Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Password Reset Page.aspx.cs">
+      <DependentUpon>Password Reset Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Password Reset Page.aspx.designer.cs">
+      <DependentUpon>Password Reset Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot Password Page.aspx.cs">
+      <DependentUpon>Forgot Password Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgot Password Page.aspx.designer.cs">
+      <DependentUpon>Forgot Password Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Password Reset Confirmation.aspx.cs">
+      <DependentUpon>Password Reset Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Password Reset Confirmation.aspx.designer.cs">
+      <DependentUpon>Password Reset Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Participant Dashboard.aspx.cs">
+      <DependentUpon>Participant Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Participant Dashboard.aspx.designer.cs">
+      <DependentUpon>Participant Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign Up Confirmation.aspx.cs">
+      <DependentUpon>Sign Up Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign Up Confirmation.aspx.designer.cs">
+      <DependentUpon>Sign Up Confirmation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Registration.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

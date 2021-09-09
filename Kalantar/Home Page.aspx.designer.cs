@@ -60,21 +60,21 @@ namespace Kalantar
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// linkForgotPassword control.
+        /// toForgotPasswordPage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkForgotPassword;
+        protected global::System.Web.UI.WebControls.HyperLink toForgotPasswordPage;
 
         /// <summary>
-        /// linkBtnSignUp control.
+        /// toSignUp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkBtnSignUp;
+        protected global::System.Web.UI.WebControls.HyperLink toSignUp;
     }
 }

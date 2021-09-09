@@ -31,7 +31,7 @@
     
     
     <div>
-        <asp:Button ID="Button1" runat="server" Text="Sign In" OnClick="Button1_Click1" />
+        <asp:Button ID="Button1" runat="server" Text="Sign In" OnClick="Button1_Click1" PostBackUrl="~/Participant Dashboard.aspx" />
         <br />
     </div>
     </div>
@@ -41,9 +41,15 @@
 
     
 <br />
-<asp:LinkButton ID="linkForgotPassword" runat="server">Forgot Password</asp:LinkButton>
+    <asp:HyperLink ID="toForgotPasswordPage" runat="server" NavigateUrl="~/Forgot Password Page.aspx">Forgot Password</asp:HyperLink>
+    
+    
+    
+    
+
+    
 <br />
-<asp:LinkButton ID="linkBtnSignUp" runat="server">New User? Sign Up</asp:LinkButton>
+    <asp:HyperLink ID="toSignUp" runat="server" NavigateUrl="~/Sign Up.aspx">New User? Sign Up</asp:HyperLink>
     
     
     

@@ -51,13 +51,13 @@ namespace Kalantar
         protected global::System.Web.UI.WebControls.TextBox TextBox4;
 
         /// <summary>
-        /// Button1 control.
+        /// btnOtpMobile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnOtpMobile;
 
         /// <summary>
         /// TextBox8 control.
@@ -69,13 +69,13 @@ namespace Kalantar
         protected global::System.Web.UI.WebControls.TextBox TextBox8;
 
         /// <summary>
-        /// Button3 control.
+        /// btnVerifyMobile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button btnVerifyMobile;
 
         /// <summary>
         /// TextBox5 control.
@@ -87,13 +87,13 @@ namespace Kalantar
         protected global::System.Web.UI.WebControls.TextBox TextBox5;
 
         /// <summary>
-        /// Button2 control.
+        /// btnOtpMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnOtpMail;
 
         /// <summary>
         /// TextBox9 control.
@@ -105,13 +105,13 @@ namespace Kalantar
         protected global::System.Web.UI.WebControls.TextBox TextBox9;
 
         /// <summary>
-        /// Button4 control.
+        /// btnVerifyMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
+        protected global::System.Web.UI.WebControls.Button btnVerifyMail;
 
         /// <summary>
         /// TextBox6 control.
@@ -130,6 +130,15 @@ namespace Kalantar
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox7;
+
+        /// <summary>
+        /// DropDownList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
         /// btnSignUp control.
