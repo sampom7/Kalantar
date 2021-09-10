@@ -168,7 +168,7 @@
             <asp:CheckBox ID="chkBoxTC" runat="server" />
 &nbsp;I agree to the <a href="~termsConditions">terms and conditions</a>.</address>
     <address>
-            <asp:Button ID="btnRegister" runat="server" Text="Register" />
+            <asp:Button ID="btnRegister" runat="server" Text="Register" PostBackUrl="~/Registration Confirmation.aspx" />
         </address>
     <address>
             <br />

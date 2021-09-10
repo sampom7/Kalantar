@@ -106,8 +106,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Jury Dashboard.aspx" />
     <Content Include="Forgot Password OTP Page.aspx" />
     <Content Include="Admin Dashboard.aspx" />
+    <Content Include="Registration Confirmation.aspx" />
     <Content Include="Sub-Admin Dashboard.aspx" />
     <Content Include="Password Reset Page.aspx" />
     <Content Include="Forgot Password Page.aspx" />
@@ -173,6 +175,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Jury Dashboard.aspx.cs">
+      <DependentUpon>Jury Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jury Dashboard.aspx.designer.cs">
+      <DependentUpon>Jury Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -195,6 +204,13 @@
     </Compile>
     <Compile Include="Admin Dashboard.aspx.designer.cs">
       <DependentUpon>Admin Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration Confirmation.aspx.cs">
+      <DependentUpon>Registration Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration Confirmation.aspx.designer.cs">
+      <DependentUpon>Registration Confirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sub-Admin Dashboard.aspx.cs">
       <DependentUpon>Sub-Admin Dashboard.aspx</DependentUpon>
