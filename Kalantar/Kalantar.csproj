@@ -110,12 +110,13 @@
     <Content Include="Forgot Password OTP Page.aspx" />
     <Content Include="Admin Dashboard.aspx" />
     <Content Include="Registration Confirmation.aspx" />
+    <Content Include="Sample.aspx" />
     <Content Include="Sub-Admin Dashboard.aspx" />
     <Content Include="Password Reset Page.aspx" />
     <Content Include="Forgot Password Page.aspx" />
     <Content Include="Password Reset Confirmation.aspx" />
-    <Content Include="Participant Dashboard.aspx" />
-    <Content Include="Sign Up Confirmation.aspx" />
+    <Content Include="ParticipantDashboard.aspx" />
+    <Content Include="SignUpConfirmation.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -136,10 +137,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Images\Kalantar Logo.jpeg" />
-    <Content Include="Sign Up.aspx" />
-    <Content Include="Sign in.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="SignIn.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Home Page.aspx" />
+    <Content Include="HomePage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -212,6 +213,13 @@
     <Compile Include="Registration Confirmation.aspx.designer.cs">
       <DependentUpon>Registration Confirmation.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Sample.aspx.cs">
+      <DependentUpon>Sample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sample.aspx.designer.cs">
+      <DependentUpon>Sample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Sub-Admin Dashboard.aspx.cs">
       <DependentUpon>Sub-Admin Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -240,19 +248,19 @@
     <Compile Include="Password Reset Confirmation.aspx.designer.cs">
       <DependentUpon>Password Reset Confirmation.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Participant Dashboard.aspx.cs">
-      <DependentUpon>Participant Dashboard.aspx</DependentUpon>
+    <Compile Include="ParticipantDashboard.aspx.cs">
+      <DependentUpon>ParticipantDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Participant Dashboard.aspx.designer.cs">
-      <DependentUpon>Participant Dashboard.aspx</DependentUpon>
+    <Compile Include="ParticipantDashboard.aspx.designer.cs">
+      <DependentUpon>ParticipantDashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sign Up Confirmation.aspx.cs">
-      <DependentUpon>Sign Up Confirmation.aspx</DependentUpon>
+    <Compile Include="SignUpConfirmation.aspx.cs">
+      <DependentUpon>SignUpConfirmation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sign Up Confirmation.aspx.designer.cs">
-      <DependentUpon>Sign Up Confirmation.aspx</DependentUpon>
+    <Compile Include="SignUpConfirmation.aspx.designer.cs">
+      <DependentUpon>SignUpConfirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registration.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
@@ -278,20 +286,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Home Page.aspx.cs">
-      <DependentUpon>Home Page.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home Page.aspx.designer.cs">
-      <DependentUpon>Home Page.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sign Up.aspx.cs">
-      <DependentUpon>Sign Up.aspx</DependentUpon>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sign Up.aspx.designer.cs">
-      <DependentUpon>Sign Up.aspx</DependentUpon>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -314,12 +322,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Sign in.aspx.cs">
-      <DependentUpon>Sign in.aspx</DependentUpon>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sign in.aspx.designer.cs">
-      <DependentUpon>Sign in.aspx</DependentUpon>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -21,7 +21,7 @@ namespace Kalantar
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnViewRegistraton;
+       // protected global::System.Web.UI.WebControls.Button btnViewRegistraton;
 
         /// <summary>
         /// btnViewResults control.
@@ -30,6 +30,6 @@ namespace Kalantar
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnViewResults;
+        //protected global::System.Web.UI.WebControls.Button btnViewResults;
     }
 }

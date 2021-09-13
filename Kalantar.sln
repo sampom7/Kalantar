@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalantar", "Kalantar\Kalant
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalantar.Tests", "Kalantar.Tests\Kalantar.Tests.csproj", "{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KalantarProd", "KalantarProd\KalantarProd.csproj", "{C6C7C579-9237-4656-A0FF-3430AE3DEF93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B654D5C6-A842-4E8F-A05A-49544C4EE1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C7C579-9237-4656-A0FF-3430AE3DEF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C7C579-9237-4656-A0FF-3430AE3DEF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C7C579-9237-4656-A0FF-3430AE3DEF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C7C579-9237-4656-A0FF-3430AE3DEF93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
