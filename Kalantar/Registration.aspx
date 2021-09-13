@@ -70,7 +70,20 @@
             <br />
             -*-*School Students*-*-<br />
             Class:&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox18" runat="server" Height="16px"></asp:TextBox>
+            <asp:DropDownList ID="DropDownList12" runat="server">
+                <asp:ListItem>12</asp:ListItem>
+                <asp:ListItem>11</asp:ListItem>
+                <asp:ListItem>10</asp:ListItem>
+                <asp:ListItem>9</asp:ListItem>
+                <asp:ListItem>8</asp:ListItem>
+                <asp:ListItem>7</asp:ListItem>
+                <asp:ListItem>6</asp:ListItem>
+                <asp:ListItem>5</asp:ListItem>
+                <asp:ListItem>4</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>1</asp:ListItem>
+            </asp:DropDownList>
             <br />
             School Name:&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox19" runat="server" Height="16px"></asp:TextBox>

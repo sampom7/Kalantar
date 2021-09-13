@@ -53,12 +53,20 @@
 
         </address>
           <address>
-              Category (will be registering for):&nbsp;&nbsp;&nbsp;
+              Category (will be registering for):*&nbsp;&nbsp;&nbsp;
               <asp:DropDownList ID="DropDownList1" runat="server">
-                  <asp:ListItem>Self</asp:ListItem>
-                  <asp:ListItem>For Multiple other Participants</asp:ListItem>
+                  <asp:ListItem>Individual</asp:ListItem>
+                  <asp:ListItem>Teacher/Faculty</asp:ListItem>
               </asp:DropDownList>
-              <br />
+
+
+        </address>
+          <address>
+              &nbsp;</address>
+          <address>
+              ***Individuals can only register once</address>
+          <address>
+              ***Teachers can register for many<br />
 
 
         </address>

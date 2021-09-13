@@ -2,17 +2,21 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-
+<center>
     <h2><%: Title %></h2>
     
 
  
-    
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Kalantar Logo.jpeg" />
+
+
+
 <div class="container">
   <div class="row" style="width: 100%">
     <div class="col" style="width: 50%">
       
     </div>
+
     <div class="col" style="width: 50%">
       <div>
         <br />
@@ -24,7 +28,7 @@
     <div>
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
     &nbsp;&nbsp;&nbsp; &nbsp;
-        <asp:TextBox ID="TextBox3" runat="server" Height="16px" Width="110px"></asp:TextBox>
+        <asp:TextBox ID="TextBox3" runat="server" TextMode="Password" Height="16px" Width="110px"></asp:TextBox>
         <br />
         <br />
     </div>
@@ -33,8 +37,21 @@
     <div>
         <asp:Button ID="Button1" runat="server" Text="Sign In" OnClick="Button1_Click1" PostBackUrl="~/Participant Dashboard.aspx" />
         <br />
+        <div>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+            Style="top: 98px; left: 367px; color:red ; 26px; width: 162px" 
+            ErrorMessage="Username Required" ControlToValidate="TextBox2">
+        </asp:RequiredFieldValidator>  
+        </div>
+        <div>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
+            Style="top: 98px; left: 367px; color:red; height: 26px; width: 162px" 
+            ErrorMessage="Password Required" ControlToValidate="TextBox3">
+        </asp:RequiredFieldValidator>
+        </div>
     </div>
     </div>
+
   </div>
 </div>
     
@@ -53,6 +70,7 @@
     
     
     
+</center>
     
 
     

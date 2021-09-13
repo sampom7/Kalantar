@@ -63,9 +63,11 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
+            <center>
             <footer>
                 <p> © Website Designed and Built by Sameer Sharma </p>
             </footer>
+            </center>
         </div>
 
     </form>
