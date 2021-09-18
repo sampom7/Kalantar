@@ -107,13 +107,13 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Jury Dashboard.aspx" />
-    <Content Include="Forgot Password OTP Page.aspx" />
+    <Content Include="ForgotPasswordOTPPage.aspx" />
     <Content Include="Admin Dashboard.aspx" />
     <Content Include="Registration Confirmation.aspx" />
     <Content Include="Sample.aspx" />
     <Content Include="Sub-Admin Dashboard.aspx" />
     <Content Include="Password Reset Page.aspx" />
-    <Content Include="Forgot Password Page.aspx" />
+    <Content Include="ForgotPasswordPage.aspx" />
     <Content Include="Password Reset Confirmation.aspx" />
     <Content Include="ParticipantDashboard.aspx" />
     <Content Include="SignUpConfirmation.aspx" />
@@ -192,12 +192,12 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Forgot Password OTP Page.aspx.cs">
-      <DependentUpon>Forgot Password OTP Page.aspx</DependentUpon>
+    <Compile Include="ForgotPasswordOTPPage.aspx.cs">
+      <DependentUpon>ForgotPasswordOTPPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forgot Password OTP Page.aspx.designer.cs">
-      <DependentUpon>Forgot Password OTP Page.aspx</DependentUpon>
+    <Compile Include="ForgotPasswordOTPPage.aspx.designer.cs">
+      <DependentUpon>ForgotPasswordOTPPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin Dashboard.aspx.cs">
       <DependentUpon>Admin Dashboard.aspx</DependentUpon>
@@ -234,12 +234,12 @@
     <Compile Include="Password Reset Page.aspx.designer.cs">
       <DependentUpon>Password Reset Page.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forgot Password Page.aspx.cs">
-      <DependentUpon>Forgot Password Page.aspx</DependentUpon>
+    <Compile Include="ForgotPasswordPage.aspx.cs">
+      <DependentUpon>ForgotPasswordPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forgot Password Page.aspx.designer.cs">
-      <DependentUpon>Forgot Password Page.aspx</DependentUpon>
+    <Compile Include="ForgotPasswordPage.aspx.designer.cs">
+      <DependentUpon>ForgotPasswordPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Password Reset Confirmation.aspx.cs">
       <DependentUpon>Password Reset Confirmation.aspx</DependentUpon>

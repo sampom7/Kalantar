@@ -11,7 +11,7 @@ namespace Kalantar
 {
 
 
-    public partial class Home_Page
+    public partial class ForgotPasswordOTPPage
     {
 
         /// <summary>

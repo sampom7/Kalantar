@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Forgot Password" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Forgot Password OTP Page.aspx.cs" Inherits="Kalantar.Home_Page" %>
+﻿<%@ Page Title="Forgot Password" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ForgotPasswordOTPPage.aspx.cs" Inherits="Kalantar.ForgotPasswordOTPPage" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Forgot Password" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Password Reset Page.aspx.cs" Inherits="Kalantar.Home_Page" %>
+﻿<%@ Page Title="Forgot Password" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="PasswordResetPage.aspx.cs" Inherits="Kalantar.PasswordResetPage" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 

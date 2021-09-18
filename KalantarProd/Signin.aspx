@@ -61,7 +61,7 @@
 
     
 <br />
-    <asp:HyperLink ID="toForgotPasswordPage" runat="server" NavigateUrl="~/ForgotPasswordPage.aspx">Forgot Password</asp:HyperLink>
+    <asp:HyperLink ID="toForgotPasswordPage" runat="server" NavigateUrl="~/Forgot Password Page.aspx">Forgot Password</asp:HyperLink>
     
     
     

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Kalantar
 {
-    public partial class FogotPasswordOTPPage : System.Web.UI.Page
+    public partial class ForgotPasswordPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

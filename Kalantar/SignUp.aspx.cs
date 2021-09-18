@@ -47,7 +47,7 @@ namespace Kalantar
                 // Establish connection with the DB
                 SqlConnection conn = new SqlConnection(WebConfigurationManager.ConnectionStrings["KalantarConnectionString"].ConnectionString);
                 conn.Open();
-                string insertUserData = "insert into userdetails (userID, firstName,middleName,lastName,mobileNo,emailID,createdon,userTypeID) values(@username,@firstName,@middleName,@LastName,@MobileNumber,@emailID,@createdOn,@userTypeID)";
+                string insertUserData = "insert into userDetails (userID, firstName,middleName,lastName,mobileNo,emailID,createdon,userTypeID) values(@username,@firstName,@middleName,@LastName,@MobileNumber,@emailID,@createdOn,@userTypeID)";
                 SqlCommand cmd = new SqlCommand(insertUserData, conn);
                 cmd.Parameters.AddWithValue("@username", userName);
                 cmd.Parameters.AddWithValue("@firstName", FirstName);

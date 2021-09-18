@@ -9,7 +9,7 @@
     </address>
     <address>
         Click here to go to the
-        <asp:HyperLink ID="hypLinkSignInPage" runat="server" NavigateUrl="~/Sign in.aspx">sign-in page</asp:HyperLink>
+        <asp:HyperLink ID="hypLinkSignInPage" runat="server" NavigateUrl="~/Signin.aspx">sign-in page</asp:HyperLink>
         .</address>
     
 </asp:Content>

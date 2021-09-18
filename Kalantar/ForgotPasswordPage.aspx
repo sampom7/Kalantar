@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Forgot Password" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Forgot Password Page.aspx.cs" Inherits="Kalantar.Home_Page" %>
+﻿<%@ Page Title="Forgot Password" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ForgotPasswordPage.aspx.cs" Inherits="Kalantar.ForgotPasswordPage" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -17,7 +17,7 @@
 
         </address>
                 <address>
-            <asp:Button ID="btnOtpMobile0" runat="server" Text="Send OTP" PostBackUrl="~/Forgot Password OTP Page.aspx" />
+            <asp:Button ID="btnOtpMobile0" runat="server" Text="Send OTP" PostBackUrl="~/ForgotPasswordOTPPage.aspx" />
 
 
         </address>
